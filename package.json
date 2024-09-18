@@ -1,0 +1,32 @@
+{
+  "name": "@taran28/taran-encoder",
+  "version": "0.0.1",
+  "description": "Encodes numbers to short strings.",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlaguma/taran-encoder.git"
+  },
+  "keywords": [
+    "taran-encoder"
+  ],
+  "author": "James La Guma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlaguma/taran-encoder/issues"
+  },
+  "homepage": "https://github.com/jlaguma/taran-encoder#readme",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "./lib/es5/index.d.ts"
+}
