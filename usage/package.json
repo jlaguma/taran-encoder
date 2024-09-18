@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@taran28/taran-encoder": "^0.0.1",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  }
+}
